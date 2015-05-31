@@ -12,7 +12,7 @@ int main(int argc, char *argv[])
 
 
     foreach (int val, vec) {
-        qDebug() << vec[1] ;
+        qDebug() << val;
     }
     //}
 
