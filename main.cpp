@@ -8,6 +8,7 @@ int main(int argc, char *argv[])
     QCoreApplication a(argc, argv);
 
     // kotki dwa
+    // baba bombom
     QVector<int> vec(10);
     qFill(vec,5);
     foreach (int val, vec) {
