@@ -1,20 +1,23 @@
 #include <QCoreApplication>
 #include<QVector>
 #include<QDebug>
+#include<vector>
 #include<iostream>
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    QVector<int> vec;
+    QVector<int> vec(50);
     qFill(vec,5);
-    int val=8;
-    //foreach (int val, vec) {
-       qDebug() <<  val;
+
+
+    foreach (int val, vec) {
+        qDebug() << vec[1] ;
+    }
+
+
+
     //}
 
-    // alleluja
-    int aa=5;
-        std::cout << aa;
     return a.exec();
 }
