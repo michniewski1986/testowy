@@ -7,16 +7,13 @@ int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
 
-    QVector<int> vec(50);
+    QVector<int> vec(10);
     qFill(vec,5);
 
 
     foreach (int val, vec) {
         qDebug() << vec[1] ;
     }
-
-
-
     //}
 
     return a.exec();
