@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
     foreach (int val, vec) {
         qDebug() << val;
     }
+    // dziura bob
     return a.exec();
 
 }
