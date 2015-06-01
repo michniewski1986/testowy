@@ -6,10 +6,7 @@
 int main(int argc, char *argv[])
 {
     QCoreApplication a(argc, argv);
-
-    // bakkkika
-    // fjfifeo
-    // kotki dwa
+    
     // baba bombom
     QVector<int> vec(10);
     qFill(vec,5);
